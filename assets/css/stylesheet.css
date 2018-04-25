@@ -1,0 +1,371 @@
+		.wrapper {
+			overflow-x: hidden;
+		}
+
+		.jumbotron {
+			height:110vh;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			margin: 0;
+			color: white;
+			background-color: transparent;
+		}
+
+		.jumbotron h1 {
+		  font-family: 'Oswald', sans-serif;
+			font-size: 45px;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			padding-bottom: 15px;
+		}
+
+		.name {
+			font-family: 'Oswald', sans-serif;
+			background: transparent;
+		    text-align: center;
+			padding-top: 30px;
+		}
+
+		.name .container h1 {
+		    text-transform: uppercase;
+		    font-family: 'Oswald', sans-serif;
+		    font-size: 6.5em;
+		    font-weight: 700;
+		    margin-bottom: 10px;
+		    display: inline;
+		    color: 	#FFD700;
+		    text-shadow: rgba(0, 0, 0, 0.3) 0px 4px 3px;
+		}
+
+		.name .container h1:hover {
+		  color: rgb(380,230,0);
+		  animation: ease .2s;
+			-webkit-transition: ease .2s;
+			-moz-transition: ease .2s;
+			-o-transition: .2s ease;
+			-ms-transition: .2s ease;
+			transition: .2s ease;
+		}
+
+		.name .container h3 {
+			font-family: 'Oswald', sans-serif;
+			color: white;
+			font-size: 2.5em;
+			text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+						 0px 8px 13px rgba(0,0,0,0.1),
+						 0px 18px 23px rgba(0,0,0,0.1);
+		}
+
+		#background-box {
+			background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ 			background-blend-mode: multiply;
+			border: 1px solid white;
+			width: 400px;
+			margin: auto;
+			display: block;
+			margin-top: 200px;
+			padding: 20px;
+		}
+
+		#background-box h1 {
+			color: white;
+		}
+
+		/* All of the different jumbotron backgrounds */
+		#landing {
+			background-image: url(../img/landing.jpg);
+			margin: 0px;
+			padding-top: 0px;
+			background-attachment: fixed;
+			background-size: cover;
+			height: 100vh;
+			width: 100vw;
+		}
+
+		#attractions {
+			background-image: url(../img/waimea.jpg);
+			margin: 0px;
+			padding-top: 0px;
+			background-attachment: fixed;
+			background-size: cover;
+			height: 100vh;
+			width: 100vw;
+		}
+
+		.outer-attractions .attraction-images:hover, .outer-attractions .attraction-images:active {
+			border-radius: 50%;
+			-webkit-transition: -webkit-transform .7s ease-in-out;
+			transition: transform .7s ease-in-out;
+			-webkit-transform: rotate(360deg);
+          	transform: rotate(360deg);
+		}
+
+		#video-gallery {
+			background-image: url(../img/beach-park.jpg);
+			color: white;
+		}
+
+		#shopping {
+			background-image: url(../img/acai.jpg);
+			margin: 0px;
+			padding-top: 0px;
+			background-attachment: fixed;
+			background-size: cover;
+			height: 100vh;
+			width: 100vw;
+		}
+
+		#hotels {
+			background-image: url(../img/sharkscove.jpg);
+			margin: 0px;
+			padding-top: 0px;
+			background-attachment: fixed;
+			background-size: cover;
+			height: 100vh;
+			width: 100vw;
+		}
+
+		.hotel-images {
+			border-radius: 50%;
+			height: 200px;
+			width: 275px;
+		}
+
+		#news {
+			background-image: url(../img/palms.jpg);
+			margin: 0px;
+			padding-top: 0px;
+			background-attachment: fixed;
+			background-size: cover;
+			height: 100vh;
+			width: 100vw;
+		}
+
+		#survey {
+			background-image: url(../img/aloha.jpg);
+			margin: 0px;
+			padding-top: 0px;
+			background-attachment: fixed;
+			background-size: cover;
+			height: 100vh;
+			width: 100vw;
+		}
+
+		.grey-background {
+			background-color: #EDEEEF;
+		}
+
+		.navbar {
+			margin: 0px;
+			background-color: transparent;
+			font-family: 'Oswald', sans-serif;
+			font-size: 19px;
+			letter-spacing: 1px;
+			text-shadow: 0px 3px 3px rgba(0,0,0,0.4),
+						 0px 6px 13px rgba(0,0,0,0.1),
+						 0px 15px 23px rgba(0,0,0,0.1);
+		}
+		.nav-items {
+			color: white;
+			margin-left: 17px;
+			margin-top: 15px;
+			padding: 10px 20px 8px 20px !important;
+		}
+
+		.nav-items:hover {
+			color: gold;
+			transition: all 0.3s ease-in-out;
+		}
+
+		#contact-style {
+			border: 1px solid gold;
+		}
+
+		#nav-container {
+			padding: 10px;
+			margin-bottom: 0px;
+
+		}
+
+		.container {
+		    padding: 60px;
+		    margin: auto;
+		}
+
+		.row {
+		    margin-right: -15px;
+		    margin-left: -15px;
+		}
+
+		.section-title-border {
+		  width: 100px;
+		  height: 3px;
+		  background: grey;
+		  margin: 0 auto 35px;
+		}
+
+		.myinfo {
+		    padding: 30px;
+		}
+
+		.myinfo h1 {
+			font-family: 'Oswald', sans-serif;
+			font-size: 45px;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			padding-bottom: 15px;
+		}
+
+		.myinfo p {
+		    font-family: 'PT Serif', serif;
+		    font-size: 17px;
+		    line-height: 1.5em;
+		    text-align: left;
+		    padding-left: 27px;
+			padding-right: 27px;
+		}
+
+		h1 {
+			font-family: 'Oswald', sans-serif;
+			font-size: 45px;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			padding-bottom: 15px;
+		}
+
+		h2 {
+			font-family: 'Oswald', sans-serif;
+			font-size: 40px;
+			letter-spacing: 1px;
+			outline: 1px;
+			text-transform: uppercase;
+			padding-bottom: 30px;
+		}
+
+		h3 {
+			font-family: 'Oswald', sans-serif;
+			font-size: 25px;
+			letter-spacing: 1px;
+			outline: 1px;
+			text-transform: uppercase;
+		}
+
+		h4 {
+			font-family: 'Oswald', sans-serif;
+			font-size: 20px;
+			outline: 1px;
+			text-transform: uppercase;
+
+		}
+
+		p {
+			font-family: 'PT Serif', serif;
+			font-size: 17px;
+			line-height: 1.5em;
+			text-align: left;
+		}
+
+		#home-img {
+			margin-bottom: 50px;
+		}
+
+		#survey-container {
+				font-family: 'PT Serif', serif;
+				background: #55b2ec;
+				color: #f7fbfe;
+				width: 600px;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 20px;
+				padding-bottom: 20px;
+				margin-top: 60px;
+				margin-bottom: 60px;
+				border-radius: 10px;
+			}
+
+			#survey-header {
+				font-family: 'Brush Script MT';
+				color: white;
+				text-align: center;
+				font-size: 60px;
+				font-weight: bold;
+				margin: 15px;
+				padding-bottom: 15px;
+			}
+
+			.form-row {
+				margin-bottom: 10px;
+			}
+
+			label {
+				width: 220px;
+				float: left;
+				text-align: right;
+				margin-right: 10px;
+			}
+
+			.exception-label {
+				width: auto;
+				float: none;
+			}
+
+			.submit{
+				margin-left: 140px;
+			}
+
+			button {
+				background: #75c1f0;
+				font-family: 'Gill Sans', sans-serif;
+				font-size: 15px;
+				border: 0;
+				height: 40px;
+				width: 100px;
+			}
+
+		/* social media buttons */
+		.list-unstyled {
+			list-style: none;
+			text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+						 0px 8px 13px rgba(0,0,0,0.1),
+						 0px 18px 23px rgba(0,0,0,0.1);
+		}
+		.list-inline li {
+			display: inline-block;
+		}
+
+		.social-icons a {
+			color: white;
+		}
+
+		.social-icons .icon:hover {
+			color: gold;
+			-webkit-transition: all 0.4s ease-in-out;
+			-moz-transition: all 0.4s ease-in-out;
+			-ms-transition: all 0.4s ease-in-out;
+			-o-transition: all 0.4s ease-in-out;
+			transition: all 0.4s ease-in-out;
+		}
+
+		.footer {
+			color: white;
+			background-color: black;
+			padding-top: 2px;
+			padding-bottom: 2px;
+		}
+
+		.footer p {
+			font-family: 'PT Serif', serif;
+			font-size: 14px;
+			text-align: center;
+			letter-spacing: 1px;
+		}
+
+		footer {
+			margin: 90px;
+		}
+
+		.clear {
+			clear: both;
+		}
